@@ -23,7 +23,7 @@ con **BODY**:
 
 # ACLARACIONES importantes:
 
-A veces el POST indicado anteriormente demora más de 30 segundos, y heroku por defecto manda un error con status 503. Entonces, para que aún puedas ver el balance consultado, simplemente debes ir al siguiente link directamente en el browser:
+A veces el POST indicado anteriormente demora más de 30 segundos, y heroku por defecto manda un error con status 503. Entonces, para que aún puedas ver el balance consultado, simplemente debes ir al siguiente link en el browser:
 
 https://gentle-beach-21793.herokuapp.com
 
