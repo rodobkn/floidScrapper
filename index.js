@@ -10,14 +10,17 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json()); //To transform the incoming request to json.
 
+let lastBalance = null;
+
 app.get('/', (req, res) => {
-  res.send('Hi');
+  res.send(`El último balance que consultaste fue: ${lastBalance}`);
 });
 
 app.post('/scrapping', async (req, res) => {
   try {
     const { rut, password } = req.body;
     const balance = await scrapper.executeScrap(rut, password);
+    lastBalance = balance;
     console.log('Balance: ', balance);
     res.send({ balance });
   } catch (error) {
