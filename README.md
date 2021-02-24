@@ -8,16 +8,18 @@ Basicamente lo que se tiene que hacer es un POST a la siguiente URL:
 
 https://gentle-beach-21793.herokuapp.com/scrapping
 
-con Headers:
+con **Headers**:
 
 Content-Type: application/json
 
-con BODY:
+con **BODY**:
 
+```
 {
     "rut": "19956143-k",
     "password": "somePassword"
 }
+```
 
 # ACLARACIONES importantes:
 
