@@ -31,6 +31,6 @@ El cual mostrará tu último balance consultado.
 
 # Si tuviera mas tiempo
 
-Si tuviera más tiempo hubierao encontrado la forma de deployarlo en amazon, ya que me tiraba un error de que el elasticBeanstalk no tenía google chrome instalado. Entonces eso sería lo primero.
+Si tuviera más tiempo hubiera encontrado la forma de deployarlo en amazon, ya que me tiraba un error de que el elasticBeanstalk no tenía google chrome instalado. Entonces eso sería lo primero.
 
 Luego cuando ya pueda hacer eso, hubiera hecho un frontEnd en React, en el cual se pueda pone el rut y password directamente, y que luego de un tiempo, te indicara el saldo, todo mucho más userFriendly. Usaría Docker compose y elasticBeanstalk para esto.
